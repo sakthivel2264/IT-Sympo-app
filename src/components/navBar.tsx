@@ -43,7 +43,7 @@ const NavBar: React.FC<NavBarProps> = ({ children }) => {
         className="fixed top-0 left-0 w-full h-full object-cover z-[-1] filter brightness-70"
         onLoadedData={handleLoadedData}
       >
-        <source src="/bgVideo.mp4" type="video/mp4" />
+        <source src="/bgV.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <header className='flex flex-row justify-between border p-2 bg-transparent/85'>
