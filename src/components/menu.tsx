@@ -19,7 +19,7 @@ export function Menu() {
         <DialogTrigger asChild>
           <div><MenuIcon/></div>
         </DialogTrigger>
-        <DialogContent className="max-w-[400px] max-h-[450px] mr-4">
+        <DialogContent className=" bg-transparent/85 max-w-[400px] max-h-[450px] mr-4">
           <DialogHeader>
             <DialogTitle>Menu</DialogTitle>
             <DialogDescription>
@@ -35,10 +35,18 @@ export function Menu() {
 function ProfileForm() {
   return (
     <div className="flex flex-col">
-      <ul className="bg-white dark:bg-black">
-        <li>menu 1</li>
-        <li>menu 2</li>
-        <li>menu 3</li>
+      <ul className="">
+        <a href="/events">
+        <li>Events</li>
+        </a>
+        
+        <a href="/aboutus">
+        <li>About Us</li>
+        </a>
+        <a href="/contact">
+        <li>Contact US</li>
+        </a>
+        
       </ul>
     </div>
   )

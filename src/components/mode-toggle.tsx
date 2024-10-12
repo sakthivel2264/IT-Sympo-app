@@ -8,7 +8,7 @@ export function ModeToggle() {
   const { setTheme, theme } = useTheme();
 
   const handleToggle = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    setTheme(theme === "dark" ? "dark" : "dark");
   };
 
   return (
@@ -16,7 +16,7 @@ export function ModeToggle() {
       <input 
         type="checkbox" 
         className="l border-2" 
-        checked={theme === "light"} 
+        checked={theme === "dark"} 
         onChange={handleToggle} 
       />
     </StyledWrapper>

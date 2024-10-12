@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import React, { ReactNode, useRef, useState } from 'react';
-import { ModeToggle } from './mode-toggle';
+// import { ModeToggle } from './mode-toggle';
 import { Menu } from './menu';
 import { Volume2, VolumeOff } from 'lucide-react';
 import Loader from './loader';
@@ -29,7 +30,7 @@ const NavBar: React.FC<NavBarProps> = ({ children }) => {
   return (
     <div>
       {isLoading && (
-        <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 z-10">
+        <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-60 z-10">
           <Loader/>
         </div>
       )}
@@ -39,29 +40,29 @@ const NavBar: React.FC<NavBarProps> = ({ children }) => {
         loop
         muted
         playsInline
-        className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto -z-10 transform -translate-x-1/2 -translate-y-1/2 object-cover filter brightness-50 mt-16"
+        className="fixed top-0 left-0 w-full h-full object-cover z-[-1] filter brightness-70"
         onLoadedData={handleLoadedData}
       >
-        <source src="/backgroundVideo.mp4" type="video/mp4" />
+        <source src="/bgVideo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <header className='flex flex-row justify-between border p-2'>
+      <header className='flex flex-row justify-between border p-2 bg-transparent/85'>
         <div className='flex flex-col justify-center m-2 cursor-pointer'>
           <Menu />
         </div>
         <div className='flex  justify-center items-center m-2'>
-        <h2>IT</h2>
+        <a href='/'>IT Sympo</a>
         </div>
         <div className='flex flex-row justify-center m-2 cursor-pointer'>
-          <div
+          {/* <div
             onClick={toggleMute}
             className={"cursor-pointer bg-background flex justify-center items-center mx-2"}
           >
             {isMuted ? <Volume2 /> : <VolumeOff />}
-          </div>
-          <div className='flex justify-center items-center'>
+          </div> */}
+          {/* <div className='flex justify-center items-center'>
             <ModeToggle />
-          </div>
+          </div> */}
          
         </div>
       </header>
