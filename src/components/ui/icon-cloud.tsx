@@ -1,5 +1,4 @@
 "use client";
-/* eslint-disable @typescript-eslint/no-unused-vars */
 
 import { useEffect, useMemo, useState } from "react";
 import { useTheme } from "next-themes";
@@ -81,7 +80,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   }, [data, theme]);
 
   return (
-    // @ts-ignore
+    //@ts-expect-error
     <Cloud {...cloudProps}>
       <>{renderedIcons}</>
     </Cloud>
