@@ -214,7 +214,7 @@ export default function EventShowcase() {
   )
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-black/55 min-h-screen">
+    <div className="max-w-4xl mx-auto p-4 bg-black/15 min-h-screen">
       <h1 className="text-3xl font-bold mb-6">Events</h1>
       {!selectedCategory && <CategorySelection />}
       {selectedCategory && !selectedEvent && <EventList />}

@@ -3,11 +3,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function AboutUs() {
   return (
-    <div className="container mx-auto px-4 py-8 bg-black/55">
+    <div className="container mx-auto px-4 py-8 bg-black/15">
       <h1 className="text-3xl font-bold text-center mb-4 underline">About Us</h1>
       <h1 className="text-2xl font-bold text-center mb-8">Department of Information Technology</h1>
       
-      <Card className="mb-8 bg-transparent/85">
+      <Card className="mb-8 bg-transparent/50">
         <CardHeader>
           <CardTitle>Our Vision</CardTitle>
         </CardHeader>
@@ -16,7 +16,7 @@ export default function AboutUs() {
         </CardContent>
       </Card>
 
-      <Card className="mb-8 bg-transparent/85">
+      <Card className="mb-8 bg-transparent/50">
         <CardHeader>
           <CardTitle>Our Mission</CardTitle>
         </CardHeader>
@@ -30,13 +30,13 @@ export default function AboutUs() {
       </Card>
 
       <Tabs defaultValue="psos" className="mb-8 ">
-        <TabsList className="grid w-full grid-cols-3 bg-transparent/85">
+        <TabsList className="grid w-full grid-cols-3 bg-transparent/50">
           <TabsTrigger value="psos">PSOs</TabsTrigger>
           <TabsTrigger value="peos">PEOs</TabsTrigger>
           <TabsTrigger value="pos">POs</TabsTrigger>
         </TabsList>
         <TabsContent value="psos">
-          <Card className="bg-transparent/85">
+          <Card className="bg-transparent/50">
             <CardHeader>
               <CardTitle>Program Specific Outcomes (PSOs)</CardTitle>
             </CardHeader>
@@ -56,7 +56,7 @@ export default function AboutUs() {
           </Card>
         </TabsContent>
         <TabsContent value="peos">
-          <Card className="bg-transparent/85">
+          <Card className="bg-transparent/50">
             <CardHeader>
               <CardTitle>Program Educational Objectives (PEOs)</CardTitle>
             </CardHeader>

@@ -13,7 +13,7 @@ const NavBar: React.FC<NavBarProps> = ({ children }) => {
 
   return (
     <div>
-      <header className='flex flex-row justify-between border p-2 bg-transparent/85'>
+      <header className='flex flex-row justify-between border p-2 bg-transparent/50'>
         <div className='flex flex-col justify-center m-2 cursor-pointer'>
           <Menu />
         </div>
