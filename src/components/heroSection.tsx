@@ -17,7 +17,7 @@ import Schedule from './schedule';
 
 const HeroSection = () => {
   const [open, setOpen] = React.useState(false)
-  const videoRef = useRef<HTMLVideoElement | null>(null);
+  // const videoRef = useRef<HTMLVideoElement | null>(null);
 
   return (
     <section className="w-full min-h-screen bg-black/55 flex items-center justify-center px-8 pt-10">
