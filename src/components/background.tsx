@@ -39,7 +39,7 @@ export default function Background() {
       // Draw background
       const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height)
       gradient.addColorStop(1, '#001a33')
-      gradient.addColorStop(0, '#004d00')
+      gradient.addColorStop(0, '#add8e6')
       ctx.fillStyle = gradient
       ctx.fillRect(0, 0, canvas.width, canvas.height)
 
@@ -53,12 +53,12 @@ export default function Background() {
 
         ctx.beginPath()
         ctx.arc(node.x, node.y, 2, 0, Math.PI * 2)
-        ctx.fillStyle = '#00ff00'
+        ctx.fillStyle = '#0000ff'
         ctx.fill()
       })
 
       // Draw connections
-      ctx.strokeStyle = 'rgba(0, 255, 0, 0.1)'
+      ctx.strokeStyle = 'rgba(0, 77, 254, 0.8)'
       nodes.forEach((nodeA, i) => {
         nodes.slice(i + 1).forEach((nodeB) => {
           const dx = nodeA.x - nodeB.x
