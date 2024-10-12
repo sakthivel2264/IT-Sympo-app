@@ -1,7 +1,6 @@
 "use client";
-
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useRef } from 'react'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { CalendarDays, MapPin, Users } from "lucide-react"
 import { Button } from './ui/button'
 import {
