@@ -19,7 +19,7 @@ const HeroSection = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   return (
-    <section className="w-full min-h-screen bg-black/15 flex items-center justify-center px-8 pt-10">
+    <section className="w-full min-h-screen bg-black/15 flex items-center justify-center px-8 pt-4">
       <div className="container mx-auto">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
           <div className="space-y-8">

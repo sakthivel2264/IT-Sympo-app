@@ -144,7 +144,7 @@ export default function EventShowcase() {
       </Button>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {categories.map((category) => (
-        <Card key={category.id} className="cursor-pointer hover:bg-white/10 backdrop-blur-sm bg-white/0" onClick={() => setSelectedCategory(category)}>
+        <Card key={category.id} className="cursor-pointer hover:bg-white/10 backdrop-blur-sm bg-white/0 border-white/50" onClick={() => setSelectedCategory(category)}>
           <CardHeader>
             <CardTitle>{category.name}</CardTitle>
             <CardDescription>Click to view events</CardDescription>
@@ -169,7 +169,7 @@ export default function EventShowcase() {
       <h2 className="text-2xl font-bold mb-4">{selectedCategory?.name} Events</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {selectedCategory?.events.map((event) => (
-          <Card key={event.id} className="cursor-pointer hover:bg-white/10 backdrop-blur-sm bg-white/0" onClick={() => setSelectedEvent(event)}>
+          <Card key={event.id} className="cursor-pointer hover:bg-white/10 backdrop-blur-sm bg-white/0 border-white/50" onClick={() => setSelectedEvent(event)}>
             <CardHeader>
               <CardTitle>{event.name}</CardTitle>
               <CardDescription>Click for details</CardDescription>
@@ -185,7 +185,7 @@ export default function EventShowcase() {
       <Button variant="ghost" onClick={() => setSelectedEvent(null)} className="mb-4 hover:bg-white/10">
         <ChevronLeft className="mr-2 h-4 w-4" /> Back to Events
       </Button>
-      <Card className='backdrop-blur-sm bg-white/0'>
+      <Card className='backdrop-blur-sm bg-white/0 border-white/50'>
         <CardHeader>
           <CardTitle>{selectedEvent?.name}</CardTitle>
         </CardHeader>

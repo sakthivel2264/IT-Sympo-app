@@ -34,7 +34,7 @@ export default function ContactsList() {
       <h1 className="text-2xl font-bold mb-4">Contacts List</h1>
       <ul className="space-y-4">
         {contacts.map((contact) => (
-          <li key={contact.id} className="backdrop-blur-sm bg-white/0 text-card-foreground rounded-lg shadow p-4 border">
+          <li key={contact.id} className="backdrop-blur-sm bg-white/0 text-card-foreground rounded-lg shadow p-4 border border-white/50">
             <h2 className="text-xl font-semibold mb-2">{contact.name}</h2>
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
               <div className="flex items-center gap-2">

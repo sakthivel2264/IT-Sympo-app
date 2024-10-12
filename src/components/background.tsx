@@ -38,8 +38,8 @@ export default function Background() {
 
       // Draw background
       const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height)
-      gradient.addColorStop(0, '#001a33')
-      gradient.addColorStop(1, '#004d00')
+      gradient.addColorStop(1, '#001a33')
+      gradient.addColorStop(0, '#004d00')
       ctx.fillStyle = gradient
       ctx.fillRect(0, 0, canvas.width, canvas.height)
 
