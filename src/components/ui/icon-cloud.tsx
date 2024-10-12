@@ -80,7 +80,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   }, [data, theme]);
 
   return (
-    //@ts-expect-error
+    // @ts-expect-error: Expected TypeScript issue due to third-party library
     <Cloud {...cloudProps}>
       <>{renderedIcons}</>
     </Cloud>
