@@ -74,7 +74,7 @@ const HeroSection = () => {
               </div> */}
             </div>
             <div className='flex justify-center items-center m-4'>
-            <video
+            {/* <video
               ref={videoRef}
               loop
               muted
@@ -84,7 +84,7 @@ const HeroSection = () => {
             >
               <source src="/backgroundVideo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
             </div>
           </div>
         </div>

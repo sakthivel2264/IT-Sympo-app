@@ -6,6 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { ChevronLeft } from "lucide-react"
 import { useRouter } from 'next/navigation';
 import Link from 'next/link'
+import { IconCloudDemo } from './iconcloud'
 
 type Event = {
   id: string
@@ -141,7 +142,7 @@ export default function EventShowcase() {
       <Button variant="ghost" onClick={Home} className="mb-4 hover:bg-white/10">
         <ChevronLeft className="mr-2 h-4 w-4" /> Back to Home
       </Button>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {categories.map((category) => (
         <Card key={category.id} className="cursor-pointer hover:bg-white/10 backdrop-blur-sm bg-white/0" onClick={() => setSelectedCategory(category)}>
           <CardHeader>
@@ -151,11 +152,12 @@ export default function EventShowcase() {
         </Card>
       ))}
     </div>
-      <Link href="" className='mt-8 flex justify-center'>
+      <Link href="" className='mt-6 flex justify-center'>
         <Button className="bg-white text-blue-600 hover:bg-zinc-100 transition-all duration-300 transform hover:scale-105 w-64" size="sm">
             Register Now
         </Button>
       </Link>
+      <IconCloudDemo/>
     </div>
   )
 
