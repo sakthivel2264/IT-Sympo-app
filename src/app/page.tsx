@@ -1,3 +1,5 @@
+"use client"
+
 import ContactsList from "@/components/contact";
 import Events from "@/components/events";
 import Footer from "@/components/footer";

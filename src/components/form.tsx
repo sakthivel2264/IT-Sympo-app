@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 
 const Form = () => {
@@ -9,7 +11,7 @@ const Form = () => {
         style={{ margin: 0 }}
         scrolling="yes"
         title="Google Form"
-        className='h-[670px] w-[500px] rounded-lg'
+        className='h-[730px] w-[480px] rounded-lg'
       >
         Loading…
       </iframe>

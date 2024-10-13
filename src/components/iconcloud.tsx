@@ -1,3 +1,5 @@
+"use client"
+
 import IconCloud from "@/components/ui/icon-cloud";
 
 const slugs = [

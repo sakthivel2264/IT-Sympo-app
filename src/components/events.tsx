@@ -29,7 +29,7 @@ const categories: Category[] = [
     events: [
       {
         id: 'tech1',
-        name: 'Paper Presentation',
+        name: 'Nexus of ideas',
         description: 'Present your innovative research or ideas on a technical topic to a panel of judges.',
         rules: [
           'Teams of 2-4 members',
@@ -37,8 +37,8 @@ const categories: Category[] = [
           'Participants must bring a printed copy of their paper'
         ],
         coordinators:[
-          "Gokul",
-          "Abishek"
+          "Gokul: 8015960964",
+          "Abishek: 9342037578"
         ]
       },
       {
@@ -51,22 +51,22 @@ const categories: Category[] = [
           'Points awarded for correct answers; no negative marking'
         ],
         coordinators:[
-          "Gopinath",
+          "Gopinath: 8667825086",
           ""
         ]
       },
       {
         id: 'tech3',
-        name: 'Guess Tech',
+        name: 'Guezz Tech',
         description: 'Identify the technical terms or tools based on visual clues.',
         rules: [
           'Teams of 2 members',
           'Time-limited rounds',
-          'Negative marking for incorrect answers'
+          'competitive Rounds, Totally 3 Rounds'
         ],
         coordinators:[
-          "Vidhun",
-          "Sakthivel"
+          "Vidhun: 8807563108",
+          "Sakthivel: 6369358986"
         ]
       },
       {
@@ -79,7 +79,7 @@ const categories: Category[] = [
           'The team with the most flags captured wins'
         ],
         coordinators:[
-          "Kumaraguru",
+          "Kumaraguru: 7092106018",
           ""
         ]
       }
@@ -99,8 +99,8 @@ const categories: Category[] = [
           'The team with the highest score across multiple rounds wins'
         ],
         coordinators:[
-          "Sanjay",
-          "Kathir"
+          "Sanjay: 9025953879",
+          "Kathir: 9345181208"
         ]
       },
       {
@@ -113,7 +113,7 @@ const categories: Category[] = [
           'Judging based on creativity, presentation, and taste'
         ],
         coordinators:[
-          "Kenith",
+          "Kenith: 6383055099",
           ""
         ]
       }

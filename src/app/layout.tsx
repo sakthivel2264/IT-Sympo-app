@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "IT Sympo",
+  title: "Infowitz2024",
   description: "created by nextjs",
 };
 
