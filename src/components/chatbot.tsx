@@ -16,7 +16,7 @@ const ChatBot = () => {
           {isOpen ? <X/> : <BotIcon className="size-8" />}
         </button>
         <div
-          className={`absolute bottom-full right-0 mb-4 w-[26rem] h-[30rem] bg-white dark:bg-slate-950 border dark:border-gray-950 border-gray-300 rounded-xl shadow-lg ${
+          className={`absolute bottom-full right-0 mb-4 w-[22rem] h-[30rem] bg-white dark:bg-slate-950 border dark:border-gray-950 border-gray-300 rounded-xl shadow-lg ${
             isOpen ? 'block' : 'hidden'
           }`}
         >
