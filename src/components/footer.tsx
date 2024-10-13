@@ -66,7 +66,7 @@ export default function Footer() {
               <a  className="hover:text-purple-200 transition-colors">Privacy Policy</a> | 
               <a  className="hover:text-purple-200 transition-colors ml-2">Terms of Service</a>
             </p>
-            <p className="mt-4">Designed By <a href="https://www.linkedin.com/in/sakthivel-pandiyan-625289270" className="underline cursor-pointer">Sakthi</a></p>
+            <p className="mt-4">Designed & Developed By <a href="https://www.linkedin.com/in/sakthivel-pandiyan-625289270" className="underline cursor-pointer">Sakthi</a></p>
           </div>
         </div>
       </div>

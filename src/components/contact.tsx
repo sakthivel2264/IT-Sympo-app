@@ -12,17 +12,20 @@ type Contact = {
 }
 
 const contacts: Contact[] = [
-  { id: 1, name: "Karthikeyan (OverAll Co-ordinator)", phone: "9345766900", email: "kartji005@gmail.com" },
-  { id: 2, name: "Gokul (Nexus of Idea)", phone: "80159 60964", email: "gokulsuresh766@gmail.com" },
-  { id: 3, name: "Abhishek (Nexus of Idea)", phone: "93420 37578", email: "abishekramanan1@gmail.com" },
-  { id: 4, name: "Kumaraguru (Capture the flag)", phone: "70921 06018", email: "dmice.ctf@gmail.com" },
-  { id: 5, name: "Vidhun (Guezz Tech)", phone: "93603 52925", email: "vidhuneyhere@gmail.com" },
-  { id: 6, name: "Sakthivel (Guezz Tech)", phone: "63693 58986", email: "sakthivelpandiyan2264@gmail.com" },
-  { id: 7, name: "Gopinath (BrainStorm)", phone: "86678 25086", email: "gngopinath24@gmail.com" },
-  { id: 8, name: "Sanjay (ESports)", phone: "90259 53879", email: "sanjaykalaivani30@gmail.com" },
-  { id: 9, name: "Kathirvel (ESports)", phone: "93451 81208", email: "kathir28328@gmail.com" },
-  { id: 10, name: "Kenith (The Fortune Bowl) ", phone: "63830 55099", email: "kenithkenith155@gmail.com" },
-  // { id: 11, name: "", phone: "", email: "" },
+  { id: 1, name: "Jenifer (AssistantProfessor/IT)", phone: "9176266320", email: "jenifer.it@dmice.ac.in" },
+  { id: 2, name: "Karthikeyan (OverAll Co-ordinator)", phone: "9345766900", email: "kartji005@gmail.com" },
+  { id: 3, name: "Farvesh (Designer & Editor)", phone: "8940192908", email: "786farvesh@gmail.com" },
+  { id: 4, name: "Gokul (Nexus of Idea)", phone: "8015960964", email: "gokulsuresh766@gmail.com" },
+  { id: 5, name: "Abhishek (Nexus of Idea)", phone: "9342037578", email: "abishekramanan1@gmail.com" },
+  { id: 6, name: "Kumaraguru (Capture the Flag)", phone: "7092106018", email: "kumaragurudevilking@gmail.com" },
+  { id: 7, name: "Vidhun (Guezz Tech)", phone: "8807563108", email: "vidhuneyhere@gmail.com" },
+  { id: 8, name: "Sakthivel (Guezz Tech)", phone: "6369358986", email: "sakthivelpandiyan2264@gmail.com" },
+  { id: 9, name: "Gopinath (MindSpark)", phone: "8667825086", email: "gngopinath24@gmail.com" },
+  { id: 10, name: "Venkatkumar (MindSpark)", phone: "6381775607", email: "venkatkumarkr2003@gmail.com" },
+  { id: 11, name: "Sanjay (ARENA OF FIRE)", phone: "9025953879", email: "sanjaykalaivani30@gmail.com" },
+  { id: 12, name: "Kathirvel (ARENA OF FIRE)", phone: "9345181208", email: "kathir28328@gmail.com" },
+  { id: 13, name: "Kenith (The Fortune Bowl) ", phone: "6383055099", email: "kenithkenith155@gmail.com" },
+  { id: 14, name: "Keerthana (Music Mania)", phone: "7305186947", email: "keerthanaloganathan02@gmail.com" },
 ]
 
 export default function ContactsList() {

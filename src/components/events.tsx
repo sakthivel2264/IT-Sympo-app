@@ -43,16 +43,18 @@ const categories: Category[] = [
       },
       {
         id: 'tech2',
-        name: 'BrainStorm',
+        name: 'MindSpark ',
         description: 'Engage in a quiz-style event to brainstorm and solve challenging technical problems.',
         rules: [
           'Teams of Maximum 2 members',
-          'Points awarded for Criteria Based; no negative marking',
+          'Participant should bring their own laptop',
+          'Solution ideas should satisfies the given problem criteria; no negative marking',
+          'participant should submit as proof of concept.',
           'Based on Criteria choose winners'
         ],
         coordinators:[
           "Gopinath: 8667825086",
-          ""
+          "VenkatKumar: 6381775607"
         ]
       },
       {
@@ -61,7 +63,7 @@ const categories: Category[] = [
         description: 'Identify the technical terms or tools based on visual clues.',
         rules: [
           'Teams of Maximum 2 members',
-          '3 rounds',
+          'Total 3 rounds',
           'competitive Rounds, The team with the most Correct Guesses wins'
         ],
         coordinators:[
@@ -74,9 +76,12 @@ const categories: Category[] = [
         name: 'Capture The Flag (CTF)',
         description: 'A cybersecurity challenge where participants solve security puzzles and capture digital flags.',
         rules: [
-          'Teams of 2-4 members',
-          'No external tools allowed except those provided by organizers',
-          'The team with the most flags captured wins'
+          'Teams of 2 members',
+          'Laptops Are Mandatory For The event. No Devices Will Be provided',
+          'Players Need an Pico Ctf Account If not, Create an Account before event!.',
+          ' It Contains Three Rounds. It could be An Web , Reverse Engineering, Forensics, Crypto Etc.',
+          'The team with the Three flags captured wins',
+          'Its Purely First Finish First Price Event'
         ],
         coordinators:[
           "Kumaraguru: 7092106018",
@@ -94,8 +99,17 @@ const categories: Category[] = [
         name: 'ESports',
         description: 'Compete in a Free Fire battle royale tournament and be the last team standing.',
         rules: [
-          'Teams of 3-5 members',
+          'Teams of 4 members',
           'Standard Free Fire game rules apply',
+          'No VPN should be Used, PC Players are not allowed.',
+          'If any participants gets caught using game bugs or hacks, whole team will be disqualified.',
+          'Every Custom Lobby will be host by the tournament Officials.',
+          'Guns Property will remains of, Full map (BERMUDA) matches will be same as the BR RANK mode.',
+          'Team-up is Not allowed in the Full map matches, Every team should join in the lobby with their registered players only.',
+          'After 2nd Round the matches will be of CLASH SQUAD(Unlimitted Ammo).',
+          'Character Skills and Guns Property will remains off in CS mode, Granades, Spray bombs and Flash bombs are not allowed in CS matches.',
+          'Double Vectors are not allowed in CS, Breaking of Gloo Walls are allowed.',
+          'All the Teams should be there within 5 min after getting the Custom ID and Passward,No teams will be considered if they gets late. Be on time everyone. ',
           'The team with the highest score across multiple rounds wins'
         ],
         coordinators:[
@@ -123,14 +137,30 @@ const categories: Category[] = [
       },
       {
         id: 'nontech3',
-        name: 'Start Music',
-        description: 'Participate in a fun, Music Event!',
+        name: 'Music Mania',
+        description: 'Participate in a fun, Music Event! Identify the background music (BGM) from a clip.',
         rules: [
-          'Teams of 2 members',
-          ''
+          " Each team listens to a BGM snippet.",
+        " If they identify the music correctly, a team member must pick a flag to confirm their answer.",
+" Correct answers earn a flag.",
+" At the end of this round, only the top-performing teams (based on earned flags) proceed to Round 2",
+"Round 2: Find the Song by Lines",
+"Objective: Identify the song from a given lyric line.",
+"Rules:",
+" The quizmaster reads a lyric line aloud.",
+" If a team recognizes the song, they must complete two tasks:",
+   "- Task 1: One member blows up a balloon and pops it.",
+   "- Task 2: After the balloon pops, another teammate picks a flag and announces the song title.",
+" Only the teams who complete the tasks and answer correctly advance to Round 3.",
+"Round 3: Guess the Lyrics",
+"Objective: Identify the missing or next line of lyrics from a popular song.",
+"Rules:",
+" Teams are given part of a song’s lyrics, and they must guess the next line correctly.",
+" Before answering, one team member must successfully flip a bottle.",
+" The team with the most correct answers and completed tasks wins the event."
         ],
         coordinators:[
-          "",
+          "Keerthana: 73051 86947",
           ""
         ]
       }

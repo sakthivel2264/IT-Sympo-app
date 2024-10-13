@@ -19,11 +19,11 @@ export function Menu() {
         <DialogTrigger asChild>
           <div><MenuIcon/></div>
         </DialogTrigger>
-        <DialogContent className=" bg-transparent/85 max-w-[400px] max-h-[450px] mr-4">
+        <DialogContent className=" bg-transparent/85 max-w-[400px] max-h-[550px] mr-4">
           <DialogHeader>
             <DialogTitle>Menu</DialogTitle>
             <DialogDescription>
-              Sympo Details
+              {/* Sympo Details */}
             </DialogDescription>
           </DialogHeader>
           <ProfileForm />
@@ -34,8 +34,11 @@ export function Menu() {
 
 function ProfileForm() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col justify-center items-center">
       <ul className="">
+        <a href="/">
+        <li>Home</li>
+        </a>
         <a href="/events">
         <li>Events</li>
         </a>
@@ -44,7 +47,7 @@ function ProfileForm() {
         <li>About Us</li>
         </a>
         <a href="/contact">
-        <li>Contact US</li>
+        <li>Contact Us</li>
         </a>
         
       </ul>
