@@ -1,5 +1,6 @@
 "use client"
 
+import ChatBot from "@/components/chatbot";
 import ContactsList from "@/components/contact";
 import Events from "@/components/events";
 import Footer from "@/components/footer";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <div>
       <HeroSection/>
+      <ChatBot/>
       <Events/>
       <ContactsList/>
       <Footer/>
