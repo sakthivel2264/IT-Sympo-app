@@ -12,9 +12,17 @@ type Contact = {
 }
 
 const contacts: Contact[] = [
-  { id: 1, name: "Sakthivel(Tech Event Co-ordinator)", phone: "6369358986", email: "sakthivelpandiyan2264@gmail.com" },
-  { id: 2, name: "Name2", phone: "", email: "" },
-  { id: 3, name: "Name3", phone: "", email: "" },
+  { id: 1, name: "Karthikeyan (OverAll Co-ordinator)", phone: "9345766900", email: "kartji005@gmail.com" },
+  { id: 2, name: "Gokul (Nexus of Idea)", phone: "80159 60964", email: "gokulsuresh766@gmail.com" },
+  { id: 3, name: "Abhishek (Nexus of Idea)", phone: "93420 37578", email: "abishekramanan1@gmail.com" },
+  { id: 4, name: "Kumaraguru (Capture the flag)", phone: "70921 06018", email: "dmice.ctf@gmail.com" },
+  { id: 5, name: "Vidhun (Guezz Tech)", phone: "93603 52925", email: "vidhuneyhere@gmail.com" },
+  { id: 6, name: "Sakthivel (Guezz Tech)", phone: "63693 58986", email: "sakthivelpandiyan2264@gmail.com" },
+  { id: 7, name: "Gopinath (BrainStorm)", phone: "86678 25086", email: "gngopinath24@gmail.com" },
+  { id: 8, name: "Sanjay (ESports)", phone: "90259 53879", email: "sanjaykalaivani30@gmail.com" },
+  { id: 9, name: "Kathirvel (ESports)", phone: "93451 81208", email: "kathir28328@gmail.com" },
+  { id: 10, name: "Kenith (The Fortune Bowl) ", phone: "63830 55099", email: "kenithkenith155@gmail.com" },
+  // { id: 11, name: "", phone: "", email: "" },
 ]
 
 export default function ContactsList() {

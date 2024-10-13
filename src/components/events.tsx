@@ -34,7 +34,7 @@ const categories: Category[] = [
         rules: [
           'Teams of 2-4 members',
           '10 minutes for presentation followed by 5 minutes of Q&A',
-          'Participants must bring a printed copy of their paper'
+          'Participants must Send PPT before 30mins of event starts'
         ],
         coordinators:[
           "Gokul: 8015960964",
@@ -46,9 +46,9 @@ const categories: Category[] = [
         name: 'BrainStorm',
         description: 'Engage in a quiz-style event to brainstorm and solve challenging technical problems.',
         rules: [
-          'Individual participation',
-          'Limited time for each question',
-          'Points awarded for correct answers; no negative marking'
+          'Teams of Maximum 2 members',
+          'Points awarded for Criteria Based; no negative marking',
+          'Based on Criteria choose winners'
         ],
         coordinators:[
           "Gopinath: 8667825086",
@@ -60,9 +60,9 @@ const categories: Category[] = [
         name: 'Guezz Tech',
         description: 'Identify the technical terms or tools based on visual clues.',
         rules: [
-          'Teams of 2 members',
-          'Time-limited rounds',
-          'competitive Rounds, Totally 3 Rounds'
+          'Teams of Maximum 2 members',
+          '3 rounds',
+          'competitive Rounds, The team with the most Correct Guesses wins'
         ],
         coordinators:[
           "Vidhun: 8807563108",
@@ -71,7 +71,7 @@ const categories: Category[] = [
       },
       {
         id: 'tech4',
-        name: 'Catch The Flag (CTF)',
+        name: 'Capture The Flag (CTF)',
         description: 'A cybersecurity challenge where participants solve security puzzles and capture digital flags.',
         rules: [
           'Teams of 2-4 members',
@@ -105,15 +105,32 @@ const categories: Category[] = [
       },
       {
         id: 'nontech2',
-        name: 'Themed Pot Luck',
-        description: 'Participate in a fun, themed event where each dish or contribution fits a pre-determined theme.',
+        name: 'The Fortune Bowl',
+        description: 'Participate in a fun, themed event!',
         rules: [
-          'Teams of 2-4 members',
-          'Dishes must be homemade and align with the given theme',
-          'Judging based on creativity, presentation, and taste'
+          'Teams of 2 members',
+          'Players take turns drawing one slip from the bowl containing various activities or task.',
+          'Each player has a time limit (30 seconds)',
+          'Successful completion earns points: 1 point for simple tasks and 2 points for challenging ones.',
+          'If a player cannot complete the activity, they receive no points, and the turn passes.',
+          'The game continues by rounds.',
+          'The player with the most points at the end wins!'
         ],
         coordinators:[
           "Kenith: 6383055099",
+          ""
+        ]
+      },
+      {
+        id: 'nontech3',
+        name: 'Start Music',
+        description: 'Participate in a fun, Music Event!',
+        rules: [
+          'Teams of 2 members',
+          ''
+        ],
+        coordinators:[
+          "",
           ""
         ]
       }
