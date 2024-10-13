@@ -25,16 +25,18 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-6 text-center lg:text-left">
               <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
-                Innovate 2024: IT Symposium
+                Infowitz2024 : IT Symposium
               </h1>
               <p className="max-w-[600px] text-zinc-200 md:text-xl mx-auto lg:mx-0">
                 Join us for a week of groundbreaking ideas, inspiring speakers, and collaborative workshops. Expand your horizons and connect with brilliant minds.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+              <Link href="/googleform">
               <Button className="bg-white text-blue-600 hover:bg-zinc-100 transition-all duration-300 transform hover:scale-105 w-64" size="sm">
                 Register Now
               </Button>
+              </Link>
               
               <Dialog open={open} onOpenChange={setOpen}>
                 <DialogTrigger asChild>

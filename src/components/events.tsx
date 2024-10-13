@@ -152,12 +152,15 @@ export default function EventShowcase() {
         </Card>
       ))}
     </div>
-      <Link href="" className='mt-6 flex justify-center'>
+      <Link href="/googleform" className='mt-6 flex justify-center'>
         <Button className="bg-white text-blue-600 hover:bg-zinc-100 transition-all duration-300 transform hover:scale-105 w-64" size="sm">
             Register Now
         </Button>
       </Link>
-      <IconCloudDemo/>
+      <div className='flex justify-center'>
+        <IconCloudDemo/>
+      </div>
+      
     </div>
   )
 
@@ -205,7 +208,7 @@ export default function EventShowcase() {
           </ul>
         </CardContent>
       </Card>
-      <Link href="" className='flex justify-center'>
+      <Link href="/googleform" className='flex justify-center'>
       <Button className="bg-white text-blue-600 hover:bg-zinc-100 transition-all duration-300 transform hover:scale-105 w-64" size="sm">
        Register Now
       </Button>
@@ -214,7 +217,7 @@ export default function EventShowcase() {
   )
 
   return (
-    <div className="max-w-4xl mx-auto p-4 bg-black/15 min-h-screen">
+    <div className="min-w-full mx-auto p-4 bg-black/15 min-h-screen">
       <h1 className="text-3xl font-bold mb-6">Events</h1>
       {!selectedCategory && <CategorySelection />}
       {selectedCategory && !selectedEvent && <EventList />}

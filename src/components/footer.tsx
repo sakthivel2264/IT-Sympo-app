@@ -28,7 +28,7 @@ export default function Footer() {
               <div className="flex space-x-4">
                 <a href="https://dmice.ac.in/" className="hover:text-purple-200 transition-colors"><Link size={24} /></a>
                 <a href="https://www.facebook.com/DMIengineers/" className="hover:text-purple-200 transition-colors"><Facebook size={24} /></a>
-                <a href="https://www.instagram.com/dmice_chennai/" className="hover:text-purple-200 transition-colors"><Instagram size={24} /></a>
+                <a href="https://www.instagram.com/infowitz_24/" className="hover:text-purple-200 transition-colors"><Instagram size={24} /></a>
                 <a href="https://www.linkedin.com/school/dmi-college-of-engineering/" className="hover:text-purple-200 transition-colors"><Linkedin size={24} /></a>
               </div>
             </div>

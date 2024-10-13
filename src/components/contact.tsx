@@ -30,7 +30,7 @@ export default function ContactsList() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto p-4 bg-black/15 min-h-screen">
+    <div className=" mx-auto p-4 bg-black/15 min-h-screen">
       <h1 className="text-2xl font-bold mb-4">Contacts List</h1>
       <ul className="space-y-4">
         {contacts.map((contact) => (

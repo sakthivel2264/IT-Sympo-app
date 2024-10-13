@@ -18,7 +18,7 @@ const NavBar: React.FC<NavBarProps> = ({ children }) => {
           <Menu />
         </div>
         <div className='flex  justify-center items-center m-2'>
-        <a href='/'>IT Sympo</a>
+        <a href='/'>Infowitz2024</a>
         </div>
         <div className='flex flex-row justify-center m-2 cursor-pointer'>
          
