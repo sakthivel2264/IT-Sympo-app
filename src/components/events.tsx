@@ -85,7 +85,7 @@ const categories: Category[] = [
         ],
         coordinators:[
           "Kumaraguru: 7092106018",
-          ""
+          "Annie: 8122874049"
         ]
       }
     ]
