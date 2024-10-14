@@ -29,12 +29,12 @@ const categories: Category[] = [
     events: [
       {
         id: 'tech1',
-        name: 'Nexus of ideas',
-        description: 'Present your innovative research or ideas on a technical topic to a panel of judges.',
+        name: 'Professional Presenter',
+        description: 'Present your innovative research or ideas on a technical topic.',
         rules: [
           'Teams of 2-4 members',
           '10 minutes for presentation followed by 5 minutes of Q&A',
-          'Participants must Send PPT before 30mins of event starts'
+          'Participants must Submit PPT before 30mins of event starts'
         ],
         coordinators:[
           "Gokul: 8015960964",
