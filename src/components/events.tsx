@@ -167,7 +167,7 @@ const categories: Category[] = [
     ]
   },{
     id: 'online events',
-    name: 'Online Events',
+    name: 'Online',
     events: [
       {
         id: 'online events1',
