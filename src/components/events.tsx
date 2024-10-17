@@ -165,6 +165,49 @@ const categories: Category[] = [
         ]
       }
     ]
+  },{
+    id: 'online events',
+    name: 'Online Events',
+    events: [
+      {
+        id: 'online events1',
+        name: 'SHOW KAATU',
+        description: 'This is an Social Media Event',
+        rules: [
+            "Contest is open to individuals aged 18 and older.",
+            "The contest begins on [18.10.24] and ends on [24.10.24].",
+            "Entries submitted after the deadline will not be considered",
+            "Participants must submit high-quality photographs to our Instagram account @infowitz_24",
+            "Photos must be original",
+            "Your wish to submit picture or video",
+            "Entries will be judged based on peoples voting using likes",
+            "Participants must come to the event day and the results will be announced on Oct 25",
+            "⚠Any fraudulent activity will result is immediate disqualification.",],
+        coordinators:[
+          "Vignesh: 6384271797",
+          "Harshavarthini: 9840828509"
+        ]
+      },
+      {
+        id: 'online events2',
+        name: 'THUG COMMENTS',
+        description: 'Compete in a Free Fire battle royale tournament and be the last team standing.',
+        rules: [
+          "We will post some pictures, and you can drop your best and most relevant comments.",
+          "The contest begins on [18.10.24] and ends on [24.10.24].",
+          "Late entries will not be accepted",
+          "Comments must be original and not violate any copyright",
+          "Entries will be judged based on peoples voted help of likes",
+          "Participants must come to the event day and the results will be announced on Oct 25",
+          "⚠Any fraudulent activity will result in immediate disqualification",
+          "⚠Don't do violence, hate or exploitation comments",
+        ],
+        coordinators:[
+          "Vignesh: 6384271797",
+          "Harshavarthini: 9840828509"
+        ]
+      },
+    ]
   }
 ];
 
@@ -242,9 +285,9 @@ export default function EventShowcase() {
         <CardContent>
           <p className="mb-4">{selectedEvent?.description}</p>
           <h3 className="text-lg font-semibold mb-2">Rules:</h3>
-          <ul className="list-disc pl-5">
+          <ul className="">
             {selectedEvent?.rules.map((rule, index) => (
-              <li key={index}>{rule}</li>
+              <li key={index}>📌{rule}</li>
             ))}
           </ul>
           <h3 className="text-lg font-semibold mb-2 mt-4">Co-ordinators:</h3>

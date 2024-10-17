@@ -5,7 +5,7 @@ import React from 'react'
 const Schedule = () => {
   return (
     <div>
-      <h1>Symposium Agenda - October 19</h1>
+      <h1>Symposium Agenda - October 25</h1>
       <p><strong>Venue:</strong> Department of IT</p>
       {/* <p><strong>Event Theme:</strong> Innovation in Technology</p> */}
 
