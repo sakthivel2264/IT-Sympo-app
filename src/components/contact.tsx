@@ -27,6 +27,8 @@ const contacts: Contact[] = [
   { id: 13, name: "Kathirvel (ARENA OF FIRE)", phone: "9345181208", email: "kathir28328@gmail.com" },
   { id: 14, name: "Kenith (The Fortune Bowl) ", phone: "6383055099", email: "kenithkenith155@gmail.com" },
   { id: 15, name: "Keerthana (Music Mania)", phone: "7305186947", email: "keerthanaloganathan02@gmail.com" },
+  { id: 16, name: "Vignesh (Online Events)", phone: "6384271797", email: "Vignesh.chozhan@gmail.com" },
+  { id: 17, name: "Harshavarthini (Online Events)", phone: "9840828509", email: "reethuharsha11@gmail.com" },
 ]
 
 export default function ContactsList() {
