@@ -172,7 +172,7 @@ const categories: Category[] = [
       {
         id: 'online events1',
         name: 'SHOW KAATU',
-        description: 'This is an Social Media Event',
+        description: 'Showcase your photography skills by submitting photos to our Instagram account @infowitz_24.',
         rules: [
             "Contest is open to individuals aged 18 and older.",
             "The contest begins on [18.10.24] and ends on [24.10.24].",
@@ -191,7 +191,7 @@ const categories: Category[] = [
       {
         id: 'online events2',
         name: 'THUG COMMENTS',
-        description: 'Compete in a Free Fire battle royale tournament and be the last team standing.',
+        description: 'Get ready to flex your creativity in THUG COMMENTS, a fun social media event!',
         rules: [
           "We will post some pictures, and you can drop your best and most relevant comments.",
           "The contest begins on [18.10.24] and ends on [24.10.24].",
