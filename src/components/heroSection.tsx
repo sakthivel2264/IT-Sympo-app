@@ -44,7 +44,7 @@ const HeroSection = () => {
                 View Schedule
               </Button>
                 </DialogTrigger>
-                <DialogContent className="max-w-[500px] max-h-[90vh] mr-4 bg-transparent/85 border rounded-lg overflow-y-auto">
+                <DialogContent className="max-w-[430px] max-h-[75vh] mr-4 bg-transparent/85 border rounded-lg overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle>Schedule</DialogTitle>
                     <DialogDescription>
