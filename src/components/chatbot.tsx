@@ -20,7 +20,7 @@ const ChatBot = () => {
             isOpen ? 'block' : 'hidden'
           }`}
         >
-          <iframe className="w-full h-full rounded-xl" src="https://app.fastbots.ai/embed/cm2hqmrgg3j2wn8bkqw5xdvfk"></iframe>
+          <iframe className="w-full h-full rounded-xl" src="https://app.fastbots.ai/embed/cltzou6bn002fswb3x4b63gku"></iframe>
         </div>
       </div>
     </div>
