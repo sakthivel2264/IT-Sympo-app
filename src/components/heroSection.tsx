@@ -32,7 +32,7 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
-              <Link href="/googleform">
+              <Link href="https://forms.gle/kLZbivTB3MsPKD1z6">
               <Button className="bg-white text-blue-600 hover:bg-zinc-100 transition-all duration-300 transform hover:scale-105 w-64" size="sm">
                 Register Now
               </Button>
@@ -44,7 +44,7 @@ const HeroSection = () => {
                 View Schedule
               </Button>
                 </DialogTrigger>
-                <DialogContent className="max-w-[400px] max-h-[70vh] mr-4 bg-transparent/85 border rounded-lg overflow-y-auto">
+                <DialogContent className="max-w-[500px] max-h-[90vh] mr-4 bg-transparent/85 border rounded-lg overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle>Schedule</DialogTitle>
                     <DialogDescription>

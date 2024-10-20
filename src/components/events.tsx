@@ -242,7 +242,7 @@ export default function EventShowcase() {
         </Card>
       ))}
     </div>
-      <Link href="/googleform" className='mt-6 flex justify-center'>
+      <Link href="https://forms.gle/kLZbivTB3MsPKD1z6" className='mt-6 flex justify-center'>
         <Button className="bg-white text-blue-600 hover:bg-zinc-100 transition-all duration-300 transform hover:scale-105 w-64" size="sm">
             Register Now
         </Button>
@@ -298,7 +298,7 @@ export default function EventShowcase() {
           </ul>
         </CardContent>
       </Card>
-      <Link href="/googleform" className='flex justify-center'>
+      <Link href="https://forms.gle/kLZbivTB3MsPKD1z6" className='flex justify-center'>
       <Button className="bg-white text-blue-600 hover:bg-zinc-100 transition-all duration-300 transform hover:scale-105 w-64" size="sm">
        Register Now
       </Button>
