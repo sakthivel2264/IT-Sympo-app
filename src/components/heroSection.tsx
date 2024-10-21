@@ -1,6 +1,6 @@
 "use client";
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useRef } from 'react'
+import React, { Suspense, useRef } from 'react'
 import { CalendarDays, MapPin, Users } from "lucide-react"
 import { Button } from './ui/button'
 import {
@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/dialog"
 import Link from 'next/link';
 import Schedule from './schedule';
+import Loading from './ui/Loading';
 
 const HeroSection = () => {
   const [open, setOpen] = React.useState(false)
@@ -75,6 +76,7 @@ const HeroSection = () => {
               </div> */}
             </div>
             <div className='flex justify-center items-center m-4'>
+            <Suspense  fallback={<Loading/>}>
             <video
               ref={videoRef}
               loop
@@ -86,6 +88,7 @@ const HeroSection = () => {
               <source src="/sympo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            </Suspense>
             </div>
           </div>
         </div>
