@@ -63,7 +63,7 @@ const Schedule = () => {
       <div>
         <h4 className='underline'>Arena of Fire(FreeFire)</h4>
         {/* <p><strong>Time:</strong> 09:00 AM - 10:30 AM</p> */}
-        <p><strong>Room:</strong> MB204</p>
+        <p><strong>Room:</strong> MB205</p>
         <p>Description: Teams compete in FreeFire battles.</p>
         <br/>
         {/* Fortune Bowl */}
