@@ -15,8 +15,8 @@ type Contact = {
 const contacts: Contact[] = [
   { id: 1, name: "Karthikeyan (Overall Co-ordinator)", phone: "9345766900", email: "kartji005@gmail.com", category: 'overall' },
   { id: 2, name: "Jenifer (AssistantProfessor/IT)", phone: "9176266320", email: "jenifer.it@dmice.ac.in", category: 'overall' },
-  { id: 3, name: "Gokul (Nexus of Idea)", phone: "8015960964", email: "gokulsuresh766@gmail.com", category: 'technical' },
-  { id: 4, name: "Abishek (Nexus of Idea)", phone: "9342037578", email: "abishekramanan1@gmail.com", category: 'technical' },
+  { id: 3, name: "Gokul (professional presenter)", phone: "8015960964", email: "gokulsuresh766@gmail.com", category: 'technical' },
+  { id: 4, name: "Abishek (professional presenter)", phone: "9342037578", email: "abishekramanan1@gmail.com", category: 'technical' },
   { id: 5, name: "Kumaraguru (Capture the Flag)", phone: "7092106018", email: "kumaragurudevilking@gmail.com", category: 'technical' },
   { id: 6, name: "Annie (Capture the Flag)", phone: "8122874049", email: "rksanosano@gmail.com", category: 'technical' },
   { id: 7, name: "Farvesh (Designer & Editor)", phone: "8940192908", email: "786farvesh@gmail.com", category: 'overall' },
