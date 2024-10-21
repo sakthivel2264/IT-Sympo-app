@@ -100,7 +100,7 @@ export default function ContactsList() {
       <div className="mb-6 pt-8">
         <div className="mb-4">
           <button
-            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full"
+            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full rounded-lg"
             onClick={() => setExpandedCategory(expandedCategory === 'overall' ? null : 'overall')}
           >
             Overall Co-ordinator Contacts List
@@ -112,7 +112,7 @@ export default function ContactsList() {
 
         <div className="mb-4">
           <button
-            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full"
+            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full rounded-lg"
             onClick={() => setExpandedCategory(expandedCategory === 'technical' ? null : 'technical')}
           >
             Technical Events Contacts List
@@ -124,7 +124,7 @@ export default function ContactsList() {
 
         <div className="mb-4">
           <button
-            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full"
+            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full rounded-lg"
             onClick={() => setExpandedCategory(expandedCategory === 'non-technical' ? null : 'non-technical')}
           >
             Non-Technical Events Contacts List
@@ -136,7 +136,7 @@ export default function ContactsList() {
 
         <div className="mb-4">
           <button
-            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full"
+            className="backdrop-blur-sm bg-white/0 text-card-foreground  shadow p-4 border border-white/50 w-full rounded-lg"
             onClick={() => setExpandedCategory(expandedCategory === 'online-event' ? null : 'online-event')}
           >
             Online Events Contacts List

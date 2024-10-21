@@ -80,10 +80,10 @@ const HeroSection = () => {
               loop
               muted
               playsInline
-              controls
-              className="border rounded-lg w-full"
+              autoPlay
+              className="border rounded-xl w-full"
             >
-              <source src="/backgroundVideo.mp4" type="video/mp4" />
+              <source src="/sympo.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             </div>

@@ -57,7 +57,7 @@ export default function Footer() {
               </ul>
             </div>
             <a href="#" className="flex flex-row-reverse">
-              <Button className="w-10 p-0 h-12" size="sm"><MoveUp/></Button>
+              <Button className="w-10 p-0 h-12 rounded-lg" size="sm"><MoveUp/></Button>
             </a>
           </div>
           <div className="mt-8 pt-8 border-t border-white/20 text-sm text-center opacity-90">
