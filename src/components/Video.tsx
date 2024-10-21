@@ -9,7 +9,7 @@ const Video: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowVideo(true);
-    }, 3000); // Set delay time here (in ms)
+    }, 6000); // Set delay time here (in ms)
 
     return () => clearTimeout(timer); // Cleanup on component unmount
   }, []);
