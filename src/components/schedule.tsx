@@ -75,7 +75,7 @@ const Schedule = () => {
         
         <h4 className='underline'>Music Mania</h4>
         {/* <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p> */}
-        <p><strong>Room:</strong> MB207</p>
+        <p><strong>Room:1</strong> MB207</p>
         <p>Description: Participants compete with a Music Based Competitions.</p>
         <br/>
         
