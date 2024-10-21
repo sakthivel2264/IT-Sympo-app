@@ -66,20 +66,19 @@ const Schedule = () => {
         <p><strong>Room:</strong> MB204</p>
         <p>Description: Teams compete in FreeFire battles.</p>
         <br/>
+        {/* Fortune Bowl */}
         <h4 className='underline'>The Fortune Bowl</h4>
         {/* <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p> */}
         <p><strong>Room:</strong> IT Seminar Hall</p>
         <p>Description: Participants compete with a fun Based Competitions.</p>
         <br/>
+        
         <h4 className='underline'>Music Mania</h4>
         {/* <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p> */}
         <p><strong>Room:</strong> MB207</p>
         <p>Description: Participants compete with a Music Based Competitions.</p>
         <br/>
-        <h4 className='underline'>The Fortune Bowl</h4>
-        {/* <p><strong>Time:</strong> 10:30 AM - 12:00 PM</p> */}
-        <p><strong>Room:</strong>IT Seminar Hall</p>
-        <p>Description: Participants compete with a fun Based Competitions.</p>
+        
       </div>
       <br/>
       <hr />
