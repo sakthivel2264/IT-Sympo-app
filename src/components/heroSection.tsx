@@ -14,6 +14,7 @@ import {
 import Link from 'next/link';
 import Schedule from './schedule';
 import Loading from './ui/Loading';
+import Video from './Video';
 
 const HeroSection = () => {
   const [open, setOpen] = React.useState(false)
@@ -75,21 +76,7 @@ const HeroSection = () => {
                 <span>50+ Attendees</span>
               </div> */}
             </div>
-            <div className='flex justify-center items-center m-4'>
-            <Suspense  fallback={<Loading/>}>
-            <video
-              ref={videoRef}
-              loop
-              muted
-              playsInline
-              autoPlay
-              className="border rounded-xl w-full"
-            >
-              <source src="/sympo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            </Suspense>
-            </div>
+            <Video/>
           </div>
         </div>
       </div>
